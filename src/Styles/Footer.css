@@ -1,0 +1,98 @@
+/* Common styles for all screen sizes */
+#footer {
+  background-color: var(--main-color);
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+
+
+.bold-footer {
+  color: #ffffff;
+}
+
+.contact-heading {
+  font-size: 1.75rem;
+  color: #ffffff;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: #ed42e7;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.description {
+  color: var(--text-color);
+  line-height: 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #808286;
+}
+
+.icon {
+  width: 8px;
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  filter: brightness(200%);
+}
+
+.copyright {
+  display: flex;
+  justify-content: start;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-text {
+  font: 1rem sans-serif;
+  text-align: start;
+  color: #ed42e7;
+}
+
+.social-media-links {
+  display: flex;
+  flex-wrap: wrap; /* Wrap links to new line on smaller screens */
+  gap: 1.5rem; /* Reduce gap between links */
+  font-size: 1.75rem;
+  color: var(--heading);
+  padding-left: 2rem; /* Adjust left padding for smaller screens */
+}
+
+.footer-img {
+  height: auto;
+  filter: grayscale(50);
+  opacity: 0.5;
+  text-align: right;
+  width: 200px;
+}
+
+/* Responsive Styles for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  #footer {
+  padding: 2.5rem; /* Adjust left padding for smaller screens */
+   
+   /* Adjust right padding for smaller screens */
+  }
+  .contact-heading  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media-links {
+    color: darkgrey;
+    padding-left: 0; /* Remove left padding for smaller screens */
+    justify-content: center; /* Center links horizontally */
+  }
+}

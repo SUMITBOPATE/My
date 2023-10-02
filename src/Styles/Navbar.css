@@ -1,0 +1,136 @@
+/* Reset some default styles for all elements */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Set a baseline font size for better responsive design */
+html {
+  font-size: 94.5%; /* 1rem = 10px; 62.5% makes 1rem = 10px for easier calculations */
+}
+
+/* Container for the entire page content */
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  color: rgb(89, 87, 89);
+  opacity: 0.9;
+  z-index: 999;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-right: 8rem;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  list-style: none;
+  color: #989696;
+  line-height: 1.5;
+}
+
+.signature {
+  height: 70px;
+  width: 99px;
+}
+
+.menu-items a {
+  color: var(--text-color);
+  list-style: none;
+  margin-left: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo {
+  color: #090909;
+  font-size: 2rem;
+  margin-left: 8rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+/* Mobile Navigation Toggle Button */
+.nav-toggle {
+  display: none; /* Hidden by default on larger screens */
+}
+
+/* Styles for mobile menu when the toggle button is clicked */
+.menu-items.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 90px; /* Adjust this value to control the distance from the top */
+  right: 0;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0px 5px 10px 0px #aaa;
+  text-align: center;
+}
+
+.menu-items.active a {
+  margin: 10px 0; /* Adjust the spacing between menu items */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .logo{
+        margin: 2rem;
+    }
+  .menu-items {
+    display: none; /* Hide the menu items on smaller screens */
+  }
+
+  /* Display the toggle button on smaller screens */
+  .nav-toggle {
+    display: block;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 1rem;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  /* Styles for the mobile menu when toggle button is clicked */
+  .menu-items.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 5px 10px 0px #aaa;
+    text-align: center;
+  }
+}

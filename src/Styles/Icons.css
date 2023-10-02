@@ -1,0 +1,51 @@
+.icons-list{
+   position: fixed;
+   
+   bottom:18%;
+   
+   right: 96%;
+   color: rgb(203, 203, 204);
+   display: flex;
+   flex-direction: column;
+ 
+font-size: xx-large;
+
+border-radius: 50%;
+
+}
+
+i{
+    
+    border-radius: 50%;
+  justify-content: center;
+ 
+  color:   rgb(139, 140, 142);
+  
+}
+i:hover{
+    color: #db2aeb;
+}
+.vertical-Line {
+  border: 1.5px solid rgb(129, 127, 127);
+  height: 96px;
+  position: fixed;
+  right: 95%;
+bottom: 0%;
+
+}
+@media screen and (max-width: 576px)
+{
+  .icons-list{
+   display: none;
+  }
+}
+
+.vertical-Line {
+  border: 1.5px solid rgb(165, 164, 164);
+  height: 96px;
+  position: fixed;
+  right: 97%;
+ 
+  bottom: 0%;
+
+}

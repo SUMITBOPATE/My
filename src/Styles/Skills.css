@@ -1,0 +1,88 @@
+/* Common styles for all screen sizes */
+.skill-main {
+  display: flex;
+  background-color: rgb(28, 28, 28);
+  padding-bottom: 7rem;
+}
+
+.about__content-title {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 8rem;
+  padding-top: 3rem;
+  flex-direction: row;
+  color: rgb(238, 241, 251);
+  font-weight: 900;
+  font-size: 49px;
+  text-decoration: underline;
+  text-decoration-color: #f7ca18;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-left: 8rem;
+  padding-right: 5rem;
+}
+
+.skills__skill {
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 2.5rem;
+  font-size: 1.6rem;
+  background: rgba(247, 246, 246, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #ffffff;
+  transition: transform 0.2s;
+}
+
+.skills {
+  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.skills__skill:hover {
+  border-color: rgb(243, 243, 7);
+}
+
+.skills__skill:hover {
+  color: rgb(243, 235, 7);
+  -webkit-text-shadow: 0 0 10px #cac6c5, 0 0 50px #616160;
+  -moz-text-shadow: 0 0 10px #cac6c5, 0 0 50px #616160;
+  -ms-text-shadow: 0 0 10px #cac6c5, 0 0 50px #616160;
+  -o-text-shadow: 0 0 10px #cac6c5, 0 0 50px #616160;
+  text-shadow: 0 0 10px #cac6c5, 0 0 50px #616160;
+}
+
+.skills__skill:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .skill-main {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content */
+    padding-left: 2rem; /* Adjust left padding for smaller screens */
+    padding-right: 2rem; /* Adjust right padding for smaller screens */
+  }
+
+  .about__content-title {
+    justify-content: center; /* Center title on smaller screens */
+    padding-left: 2rem; /* Adjust left padding for smaller screens */
+    padding-right: 2rem; /* Adjust right padding for smaller screens */
+  }
+
+  .skills {
+    padding-left: 2rem; /* Adjust left padding for smaller screens */
+    padding-right: 2rem; /* Adjust right padding for smaller screens */
+  }
+
+  .skills__skill {
+    margin-right: 1rem; /* Adjust margin for smaller screens */
+  }
+}

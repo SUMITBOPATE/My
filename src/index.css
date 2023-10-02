@@ -1,0 +1,24 @@
+:root {
+  font-family:  "Nunito Sans",  sans-serif;
+
+
+   
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-color: #121212;
+  --text-color:#9E9E9E;
+  --heading-color: #BDBDBD;
+  --highlight: #6767f7;
+}
+
