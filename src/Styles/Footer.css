@@ -1,6 +1,6 @@
 /* Common styles for all screen sizes */
 #footer {
-  background-color: var(--main-color);
+  background-color: rgb(12, 17, 17);
   padding-top: 3rem;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@
 }
 
 .description {
-  color: var(--text-color);
+  color: rgb(174, 173, 173);
   line-height: 1.75rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid #808286;

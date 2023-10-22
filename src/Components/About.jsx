@@ -13,14 +13,15 @@ import '../Styles/About.css';
           <div className="main-about">
            
                
-                <span className="bold"><h1>Get to know me!</h1>
+                <span className="bold"><h1>About me</h1>
 
-                   <br></br><h2>Nice to meet you😄.</h2></span>
+                  <h2>Nice to meet you😄.</h2></span>
 
               <div className="about-section">
                     
                
                 <div className="section">
+                  <div className="about-title">Get to know me</div>
                   I am a self-taught <span className="bold"> FrontEnd Developer. </span>
                
          I've been focused on programming, building a solid frontend stack and 
@@ -38,13 +39,13 @@ import '../Styles/About.css';
                 
              
                 <div className='btn-list'>
-                <button className="btn" id="bottone1">Contact me <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                <button className="btn" id="bottone1">Contact me <span><i class="fa fa-paper-plane" aria-hidden="true"></i></span></button>
               
                 </div>
                 </div>
                 <div className="column">    
-            
-                <img src={myimg} alt='my' className='img-my'/> 
+            <Skills/>
+                {/* <img src={myimg} alt='my' className='img-my'/>  */}
 
                 </div>
                 
@@ -88,7 +89,7 @@ import '../Styles/About.css';
        Creative thinker and love to take up any challenges or puzzles.</h4></div>
   </div> */}
 
-<Skills/>
+{/* <Skills/> */}
 
         </>
       );

@@ -16,9 +16,10 @@
 }
 
 :root{
-  --main-color: #121212;
-  --text-color:#9E9E9E;
-  --heading-color: #BDBDBD;
+  --main-color: #f7f5f5;
+  --text-color:#060606;
+  --heading-color: #505050;
   --highlight: #6767f7;
 }
+
 

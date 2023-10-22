@@ -1,19 +1,21 @@
 /* Common styles for all screen sizes */
 .skill-main {
   display: flex;
-  background-color: rgb(28, 28, 28);
-  padding-bottom: 7rem;
+  /* background-color: rgb(28, 28, 28); */
+  /* padding-bottom: 7rem; */
+  /* border: 1px solid red; */
+
 }
 
 .about__content-title {
   display: flex;
-  justify-content: flex-start;
-  padding-left: 8rem;
-  padding-top: 3rem;
+  
+  padding-left: 3rem;
+  /* padding-top: 3rem; */
   flex-direction: row;
-  color: rgb(238, 241, 251);
-  font-weight: 900;
-  font-size: 49px;
+  color: rgb(68, 68, 68);
+  font-weight: 600;
+  font-size: 36px;
   text-decoration: underline;
   text-decoration-color: #f7ca18;
 }
@@ -23,9 +25,9 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  padding-top: 5rem;
-  padding-left: 8rem;
-  padding-right: 5rem;
+  padding-top: 3.5rem;
+  /* padding-left: 8rem; */
+  /* padding-right: 5rem; */
 }
 
 .skills__skill {
@@ -33,10 +35,10 @@
   margin-bottom: 1.5rem;
   margin-right: 2.5rem;
   font-size: 1.6rem;
-  background: rgba(247, 246, 246, 0.2);
+  background: rgba(117, 117, 117, 0.2);
   border-radius: 5px;
   font-weight: 600;
-  color: #ffffff;
+  color: #575757;
   transition: transform 0.2s;
 }
 
@@ -67,14 +69,12 @@
   .skill-main {
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center content */
-    padding-left: 2rem; /* Adjust left padding for smaller screens */
-    padding-right: 2rem; /* Adjust right padding for smaller screens */
+
   }
 
   .about__content-title {
     justify-content: center; /* Center title on smaller screens */
-    padding-left: 2rem; /* Adjust left padding for smaller screens */
-    padding-right: 2rem; /* Adjust right padding for smaller screens */
+   
   }
 
   .skills {
