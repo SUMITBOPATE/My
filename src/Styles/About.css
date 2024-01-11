@@ -11,19 +11,20 @@
   max-height: fit-content;
 
     max-width: 120rem;
-   font-size: 49px;
+  
+    
     /* border: solid 1px red; */
     background-color: var(--main-color);
     /* background-color:   rgb(226,239,255); */
     padding-top: 3rem;
     padding-left: 8rem;
-    line-height: 1.4;
-    
+    line-height: 1.8;
+    letter-spacing: 0.4px;
 /*  margin-top: 1rem; */
-
+padding-bottom: 8rem;
   }
-  .main-about h1{
-    color: rgb(4, 12, 44);
+  .main-about h2{
+    color: rgb(158, 158, 158);
 
 /* margin-left:90px; */
 font-size: 3rem;
@@ -34,10 +35,10 @@ font-size: 3rem;
   font-size: 36px;
   font-weight: 600;
   /* border: 2px  #C3D900 solid ; */
- color: #6f6e6e;
+ color: rgb(41, 36, 30);
   margin-bottom: 2rem;
-  text-decoration: underline;
-  text-decoration-color: #f7ca18;
+ 
+  
 }
  .about-button{
   display: flex;flex-direction: column;
@@ -45,12 +46,12 @@ font-size: 3rem;
 
   .about-section {
     display: grid;
-    grid-template-columns: 1.1fr 1fr;
+    grid-template-columns:  1fr 0.3fr ;
 text-align: left;
    gap: 10rem;
      margin-top: 1.5rem;
    
-    line-height: 1rem;
+  
    
   }
     /* border-radius: 46px;
@@ -58,24 +59,25 @@ text-align: left;
     box-shadow:  -9px -9px 14px #dbdbdb,
                  9px 9px 14px #ffffff;
                  padding:2rem; */
-  .bold{
+  .bold-important{
     color: rgb(4, 12, 44);
 
 /* margin-left:90px; */
-font-weight:900;
-font-size: 49px;
+font-weight:700;
+font-size: 24px;
   }
   .section {
-    /* border: 1px solid rgb(0, 13, 255); */
-    /* padding: 2rem 2rem 1rem 0rem; */
+   
   
-color: rgb(153,137,132);
+color: rgb(41, 36, 30);
 max-width: 65rem;
-      /* color: rgb(163 163 163 / var(--tw-text-opacity)); */
+    
   font-size: 24px;
 text-align: justify;
-line-height: 1.8rem;
-    font-weight:300;
+line-height: 140%;
+    font-weight:400;
+    font-family: "Schibsted Grotesk", "Schibsted Grotesk Placeholder", sans-serif;
+    letter-spacing: 0.02em;
   }
 
 
@@ -236,23 +238,37 @@ top: 10%;
   /* Adjust font size for smaller screens */
   .main-about{
  height: auto;
-    font-size: 2vw;
-  padding: 2.5rem;
+    font-size: 22px;
+  padding: 1.5rem;
   padding-bottom: 0%;
-    border: 1px solid #d90028;
+   
+  }
+  .bold{
+    font-size: 20px;
+    line-height: 2.5rem;
+  }
+  .main-about h1{
+    font-size: 32px;
+  }
+  .about-title{
+    font-size: 20px;
+    line-height: 0.1rem;
   }
   .about-section {
     display: grid;
     grid-template-columns: auto;
 text-align: justify;
      
-    font-size:medium;
-    line-height: 1.2;
+  
+
    
   }
   .section{
 padding: 0px;
-    border: 1px solid #2400d9;
+font-size: 14px;
+line-height: 1.3rem;
+font-weight: 400;
+   
   }
   .column{
     display: flex;

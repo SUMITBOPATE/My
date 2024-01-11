@@ -70,7 +70,8 @@ html {
 }
 
 .logo {
-  color: #090909;
+  color: rgb(144, 93, 22);;
+  /* color: #090909; */
   font-size: 2rem;
   margin-left: 8rem;
   text-align: left;

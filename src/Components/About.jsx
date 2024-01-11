@@ -13,38 +13,37 @@ import '../Styles/About.css';
           <div className="main-about">
            
                
-                <span className="bold"><h1>About me</h1>
-
-                  <h2>Nice to meet you😄.</h2></span>
-
-              <div className="about-section">
+             <div className="about-section">
                     
                
                 <div className="section">
-                  <div className="about-title">Get to know me</div>
-                  I am a self-taught <span className="bold"> FrontEnd Developer. </span>
+                 <h2>  Get to know me 😎</h2>
+                  <div className="about-title"></div>
+                  I am a self-taught <span className="bold-important"> FrontEnd Developer. </span>
                
-         I've been focused on programming, building a solid frontend stack and 
-         creating exciting projects that solve real-world problems.
-                   I love to build stuff and
-                  connect with people smarter than me!<br>
+                   I've been focused on programming, building a solid frontend stack and 
+                 creating exciting projects that solve real-world problems.
+                   I love to build stuff and connect with people smarter than me!
+                  <br>
                   </br>
+                  <br></br>
                   When I am not smashing the keyboard, you will find me playing
                   cricket, reading or watching You-Tube or Cycling🚲.
-                 <br></br> 
-                  I'm open to<span className='bold'> Job opportunities</span> where I can contribute,
+                 <br></br> <br></br>
+                     I'm open to<span className='bold-important'> Job opportunities</span> where I can contribute,
                    learn and grow. If you have a good opportunity
                    that matches my skills and experience then don't hesitate to contact me.
-                  <br></br> Take a look at my work below to see !
+                  <br></br> 
+                  Take a look at my work below to see !💫
                 
-             
-                <div className='btn-list'>
-                <button className="btn" id="bottone1">Contact me <span><i class="fa fa-paper-plane" aria-hidden="true"></i></span></button>
-              
-                </div>
-                </div>
+             </div>
+                
+                </div>              
+                 
+                   <h2>Nice to meet you😄.</h2>
+
                 <div className="column">    
-            <Skills/>
+            {/* <Skills/> */}
                 {/* <img src={myimg} alt='my' className='img-my'/>  */}
 
                 </div>
@@ -58,7 +57,7 @@ import '../Styles/About.css';
     
     
          `` 
-               </div>
+               
     
     {/* <div className='about-me'>
       <div className='work'> 

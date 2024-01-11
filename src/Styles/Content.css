@@ -1,10 +1,12 @@
 /* Desktop Styles */
 .main-content {
     display: flex;
-    min-height: 600px;
-    max-width: fit-content;
+    max-height: 600px;
+    
     flex-direction: column;
-    background-color: #fff;
+    background-color:rgb(251,248,240);
+    padding-bottom: 3.5rem;
+    font-family: sans-serif;
   }
   
   .welcome-section {
@@ -18,35 +20,47 @@
     animation-duration: 3s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
+    font-size: 1px;
+    font-family: sans-serif;
   }
   
   .title-description {
     color: rgb(6, 6, 6);
-    font-size: 5rem;
-    font-weight: 600;
-    line-height: 1.5em;
-    font-family: "Nunito Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 550;
+    line-height: 80px;
+    font-family:   Roboto-serif;
     letter-spacing: -.025em;
   }
   
     /* border: 2px solid red; */
+    #intro-text{
+      font-family: Roboto-serif ;
+      padding-top: 8rem;
+      font-size: 64px;
+      font-weight: 580;
+      line-height: 80px;
+    color: #141c3a;
+    }
   .title-name{
-    padding-top: 3.5rem;
+  font-family: Roboto-serif ;
+padding-top: .5rem;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 580;
+    
+  }
 
-    font-size: 58px;
-    line-height: 70px;
-    font-weight: 700;
+ .title-name h1{
+  background: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+  /* .highlight {
     background: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
- 
-  .highlight {
-    background: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+  } */
 
   .head-img {
    display: block;
@@ -63,6 +77,9 @@ border: 2px solid rgb(239, 42, 183);
   
   }
   
+  b{
+    color: rgb(144, 93, 22);
+  }
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -85,8 +102,8 @@ border: 2px solid rgb(239, 42, 183);
    
     font-size: 22px;
     max-width: 100%;
-    padding-left: 8rem;
-    margin-top: 1.8rem;
+   
+    margin-top: 1.5rem;
    
   }
   
@@ -122,15 +139,24 @@ border: 2px solid rgb(239, 42, 183);
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
     .welcome-section {
-      padding: 2rem;
-      padding-top: 4rem; /* Adjust the padding for smaller screens */
+    
+      padding: 1.2rem;
+      padding-top: 5rem; /* Adjust the padding for smaller screens */
       text-align: left; 
       /* Center-align content */
+    }
+    #intro-text h1{
+      font-size: 2.2rem;
+    }
+    .title-name h1{
+      line-height: 2rem;
+    font-size: 2.2rem
+      ;
     }
   
     .title-description {
         
-      font-size: 4.2rem; /* Adjust font size for smaller screens */
+      font-size: 1.8rem; /* Adjust font size for smaller screens */
     }
   
     .img-brand {
@@ -138,9 +164,9 @@ border: 2px solid rgb(239, 42, 183);
     }
   
     .my-desc {
-     margin-top: -1.5rem;
-     margin-left: 2rem;
-      padding: .5rem; /* Adjust padding for smaller screens */
+    margin-top: 0rem;
+font-size: 1.2rem;
+     /* Adjust padding for smaller screens */
      /* Center-align content */
     }
   .head-img{
@@ -150,28 +176,27 @@ border: 2px solid rgb(239, 42, 183);
     margin-top: 0.5rem;
   
   }
-    .desc {
-        font-size: 4vw;
-      padding: .5rem; /* Adjust padding for smaller screens */
-      text-align: center; /* Center-align content */
-    }
+ 
   
     .section-icons {
       justify-content: center; /* Center-align icons */
     }
   }
   @media all and (width <=418px){
+    #intro-text{
+      font-size: 2rem;
+    }
     .title-name{
-      font-size: 4em;
+      font-size: 2.4rem;
       line-height: 1em;
     }
     .title-description{
       /* border: 1px solid red; */
-      font-size: 3.25em;
+      font-size: 2rem;
       line-height: 1.25em;
     }
     .my-desc{
-      font-size: 1.15em;
+      font-size: 1.1rem;
     }
     
   }

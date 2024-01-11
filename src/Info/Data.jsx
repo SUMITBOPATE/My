@@ -22,13 +22,7 @@ const Users = [
       code: "https://github.com/SUMITBOPATE",
       link: "https://bank-application-x5uw.vercel.app/"
     },
-    {
-      name: 'Portfolio',
-      desc: 'Built an portfolio to showcase my project and skills',
-      img: "/assets/Portfolio.png",
-      code: "https://github.com/SUMITBOPATE",
-      link: "https://bank-application-x5uw.vercel.app/"
-    },
+    
     {
       name: 'React-Quiz-game',
       desc: ' Single Page Quiz fully responsive App🚀.',

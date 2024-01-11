@@ -16,7 +16,7 @@
 }
 
 :root{
-  --main-color: #f7f5f5;
+  --main-color: rgb(251,248,240);
   --text-color:#060606;
   --heading-color: #505050;
   --highlight: #6767f7;

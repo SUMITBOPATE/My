@@ -8,22 +8,21 @@ export default function Content() {
  
       <div className="main-content">
              <div className="welcome-section">
-          <h1 className='title-name'> I am 
-            <br></br> Sumit Bopate</h1>
-                  <div className="title-description"> Crafting things for<span className='highlight'> WEB</span> <span className='highlight'></span></div>
+          <p id='intro-text'><p>I’m  Sumit —</p> </p><div className='title-name'> 
+          <p>Frontend Developer</p>
+                  <div className="title-description"> I love to Craft for<b>  Web </b>.</div>
                   
            </div>
-                  <div className='my-desc'>
+                  {/* <div className='my-desc'>
                        
                       
-                         <p> "I am a Frontend Developer based in India  | 
+                         <p> "I am a <b>Frontend Developer </b>based in India  | 
                       Crafting User-Friendly Digital Solutions<br></br>
                        with a Blend of Technical Expertise and
                   
-                   Design aesthetics that resonates with you 🚀 and <br>
-                   </br>lead to the success of overall product" 
+                   Design aesthetics that resonates with you 🚀 and lead to the success of overall product" 
                             </p>
-                             
+                            </div>  */}
         
           
                       
@@ -38,13 +37,13 @@ export default function Content() {
               
 
           
-          </div>
+          
       
               <Icons/>
 
      </div>        
 
-
+</div>
       
   </>
   );

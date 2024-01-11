@@ -14,7 +14,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <a href="#" className="logo">
-            Sumit Bopate
+            sumit bopate
           </a>
           <button className="nav-toggle" onClick={toggleMenu}>
             ☰

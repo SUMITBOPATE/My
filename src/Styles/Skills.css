@@ -69,7 +69,7 @@
   .skill-main {
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center content */
-
+padding: 1.2rem;
   }
 
   .about__content-title {
