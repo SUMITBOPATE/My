@@ -17,7 +17,7 @@ import '../Styles/About.css';
                     
                
                 <div className="section">
-                 <h2>  Get to know me 😎</h2>
+                 <h2>  Get to know me </h2>
                   <div className="about-title"></div>
                   I am a self-taught <span className="bold-important"> FrontEnd Developer. </span>
                
@@ -40,7 +40,7 @@ import '../Styles/About.css';
                 
                 </div>              
                  
-                   <h2>Nice to meet you😄.</h2>
+                   <h2>Nice to meet you.</h2>
 
                 <div className="column">    
             {/* <Skills/> */}

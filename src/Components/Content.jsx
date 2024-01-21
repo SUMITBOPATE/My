@@ -8,11 +8,12 @@ export default function Content() {
  
       <div className="main-content">
              <div className="welcome-section">
-          <p id='intro-text'><p>I’m  Sumit —</p> </p><div className='title-name'> 
+          <div id='intro-text'>I’m  Sumit — <p className='title-name'> 
           <p>Frontend Developer</p>
+          
                   <div className="title-description"> I love to Craft for<b>  Web </b>.</div>
                   
-           </div>
+           </p></div>
                   {/* <div className='my-desc'>
                        
                       

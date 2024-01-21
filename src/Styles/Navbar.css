@@ -41,7 +41,7 @@ html {
   height: 90px;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  padding-right: 8rem;
+  padding-left: 8rem;
   align-items: center;
 }
 
@@ -76,6 +76,7 @@ html {
   margin-left: 8rem;
   text-align: left;
   font-weight: 600;
+  text-decoration: none;
 }
 
 /* Mobile Navigation Toggle Button */
@@ -104,6 +105,8 @@ html {
 @media screen and (max-width: 768px) {
     .logo{
         margin: 2rem;
+        padding-left: 0rem;
+        padding-right: 2rem;
     }
   .menu-items {
     display: none; /* Hide the menu items on smaller screens */
